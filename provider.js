@@ -17,7 +17,7 @@ bs_client.initiate( function(err, response) {
 		bs_client.useTube( function( err ) {} );
 
 		bs_client.createJob( payload, function( err, data) {
-			console.log( data );
+			console.log( "Job Created with ID : " + data );
 
 		});
 

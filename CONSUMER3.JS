@@ -26,7 +26,9 @@ bs_tube_name  = '9uNIPgJpQ0qjUW4BwwEbbQ1';
         //console.log( num_watched );
     });
 
-    bs_client.stats_tube( bs_tube_name, function(err, response) { console.log(response); });
+    bs_client.stats_tube( bs_tube_name, function(err, response) { 
+        console.log(response); 
+    });
 
 
 	
